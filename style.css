@@ -10,24 +10,22 @@ ul {
 }
 li {
   list-style: none;
-  margin: 10px;
+  margin: 0.75rem;
+  font-family: "arial";
+  font-size: 0.8rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
 }
 .button {
-  height: 30px;
   background-color: #1a73e8;
   color: #ffffff;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 
 .button:link {
-  text-decoration: none;
-}
-.button:visited {
-  text-decoration: none;
-}
-.button:hover {
-  text-decoration: none;
-}
-.button:active {
+  color: #ffffff;
   text-decoration: none;
 }
